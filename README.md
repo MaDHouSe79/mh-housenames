@@ -4,6 +4,7 @@
 
 
 # Install QB Housenames
+- add the qb-housenames.sql to your correct database
 - Add this to resources/[qb]/qb-houses/locales/en.lua file, or your language file.
 - in Translations error = { }
 ```lua
