@@ -2,6 +2,8 @@
 - A easy way to interact with houses.
 - You just have to press [E] to buy a house.
 
+# NOTE
+- To make this script work you need to add houses with the realestate job, only then you can use this script.
 
 # Install QB Housenames
 - add the qb-housenames.sql to your correct database
