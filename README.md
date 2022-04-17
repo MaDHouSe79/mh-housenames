@@ -91,8 +91,6 @@ end)
 
 ## 🐞 Any bugs issues or suggestions, let my know.
 - If you have any suggestions or nice ideas let me know and we can see what we can do 👊😎
-- Keep it nice and clean for everybody and have fun with this awesome qb-parking mod 😎👍
-
 
 ## 🙈 Youtube & Discord
 - [Youtube](https://www.youtube.com/channel/UC6431XeIqHjswry5OYtim0A)
