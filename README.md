@@ -42,20 +42,6 @@
 ["has_a_house"] = "You already have a House",
 ```
 
-- You have to change this same function in resources/[qb]/qb-houses/server/main.lua file, someware around line 145
-- replace that function for this function below. 
-- this immediately solves the problem that you could buy the same house twice, with the Buy house NUI. 
-```lua
-local function isHouseOwned(house)
-    local result = MySQL.Sync.fetchAll("SELECT owned FROM houselocations WHERE name = ?", {house})
-    Wait(500)
-    if result[1] and result[1].owned == 1 then
-        return true
-    end
-    return false
-end
-```
-
 - Add this function in resources/[qb]/qb-houses/server/main.lua file., below the isHouseOwned function
 ```lua
 local function hasAHouse(citizenid)
