@@ -1,20 +1,19 @@
---[[ ===================================================== ]]--
---[[          QBCore Housenames Script by MaDHouSe         ]]--
---[[ ===================================================== ]]--
-
+--[[ ===================================================== ]] --
+--[[            MH Housenames Script by MaDHouSe           ]] --
+--[[ ===================================================== ]] --
 local QBCore = exports['qb-core']:GetCoreObject()
 local houses = {}
 
 local function addHouse(house, nickname)
-    houses[#houses+1] = { 
-        name     = house.name,
-        label    = house.label, 
-        price    = house.price,
+    houses[#houses + 1] = {
+        name = house.name,
+        label = house.label,
+        price = house.price,
         nickname = nickname,
-        owner    = house.owned,
-        tier     = house.tier,
-        coords   = json.decode(house.coords),
-        garage   = house.garage
+        owner = house.owned,
+        tier = house.tier,
+        coords = json.decode(house.coords),
+        garage = house.garage
     }
 end
 
