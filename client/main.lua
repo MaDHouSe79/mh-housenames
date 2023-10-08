@@ -88,6 +88,7 @@ local function DisplayHouseText()
                         allHouses = {}
                         Wait(500)
                         TriggerServerEvent("qb-houses:server:buyHouse2", house)
+                        TriggerServerEvent("qb-housenames:server:GetAllHouses")
                     end
                 end
             end
