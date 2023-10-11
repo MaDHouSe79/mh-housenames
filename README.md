@@ -107,6 +107,5 @@ end)
 ## 🐞 Any bugs issues or suggestions, let my know.
 - If you have any suggestions or nice ideas let me know and we can see what we can do 👊😎
 
-## 🙈 Youtube & Discord
+## 🙈 Youtube
 - [Youtube](https://www.youtube.com/channel/UC6431XeIqHjswry5OYtim0A)
-- [Discord](https://discord.gg/cEMSeE9dgS)
